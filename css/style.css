@@ -1,0 +1,203 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+button {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.container {
+  width: 1440px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+header {
+  background: url("../images/truck2.png") no-repeat right 0 bottom 34px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav__logo {
+  width: 207px;
+  height: 41px;
+  flex-shrink: 0;
+  margin-right: 117px;
+}
+.location-box {
+  color: rgba(51, 51, 51, 0.7);
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 35px;
+}
+
+.phone-box a {
+  color: rgba(51, 51, 51, 0.7);
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.time-box {
+  color: rgba(51, 51, 51, 0.7);
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.container-box {
+  display: flex;
+}
+
+.nav__list {
+  display: flex;
+  gap: 46px;
+}
+
+.nav__container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav__left {
+  display: flex;
+  align-items: center;
+  margin-bottom: 106px;
+}
+
+.btn {
+  color: #fff;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  border-radius: 5px;
+  line-height: normal;
+  background-color: #4762ff;
+}
+
+.hero__title {
+  width: 540px;
+  margin: 24px 0;
+  color: #333;
+  font-feature-settings: "liga" off;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 76px;
+}
+
+.hero__desc {
+  margin-bottom: 32px;
+  width: 496px;
+  color: rgba(51, 51, 51, 0.8);
+  font-feature-settings: "liga" off;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.regidter-box__btn {
+  color: white;
+  display: flex;
+  padding: 11px 37px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  background: #4762ff;
+  margin-bottom: 219px;
+}
+
+.hero__moto {
+  color: #333;
+  text-align: center;
+  font-feature-settings: "liga" off;
+  font-family: Inter;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-align: center;
+  margin-bottom: 18px;
+}
+
+.hero__p {
+  color: rgba(51, 51, 51, 0.8);
+  text-align: center;
+  font-feature-settings: "liga" off;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.card__wrapp {
+  background: url("../images/balon.svg");
+  width: 505px;
+  height: 287px;
+  flex-shrink: 0;
+  border-radius: 9px;
+  background: #f4f6fa;
+  
+ 
+}
+
+.card__3 {
+  width: 366px;
+  color: #333;
+  font-feature-settings: "liga" off;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.card__p {
+  width: 253px;
+  color: rgba(51, 51, 51, 0.8);
+  font-feature-settings: "liga" off;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.cals__img {
+  width: 340px;
+  height: 271px;
+  flex-shrink: 0;
+  background: url(), lightgray 50% / cover no-repeat;
+  mix-blend-mode: multiply;
+}
+
+.card__top {
+  width: 505px;
+  height: 287px;
+  background: url("../images/balon.svg") no-repeat right bottom;
+}
+
+.card__right {
+    display: flex;
+}
